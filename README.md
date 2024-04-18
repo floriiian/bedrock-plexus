@@ -3,7 +3,7 @@ A very simple Minecraft Bedrock Server Website written in PHP
 
 ## How to use
 ### Run this SQL Query to create a pre-defined database:
-
+```
 CREATE DATABASE bedrock_plexus;
 USE bedrock_plexus;
 CREATE TABLE servers (
@@ -19,7 +19,7 @@ CREATE TABLE users (
   password VARCHAR(72) NULL,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ### Inside the db folder/connect.php configure the following variables:
 ```
 $host = "localhost:3306"; <- Your database host

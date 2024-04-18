@@ -28,6 +28,6 @@ $password = ""; <- Your database user password
 $db = "bedrock_plexus"; <- The database you want to use
 ```
 
-### Thats it you're all set.
-### This is in no way an actual functioning website, just a side project.
+Thats it you're all set.
+This is in no way an actual functioning website, just a side project.
 

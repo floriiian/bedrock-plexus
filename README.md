@@ -1,8 +1,8 @@
-# bedrockplexus
+# Bedrock Plexus
 A very simple Minecraft Bedrock Server Website written in PHP
 
-# How to use
-Run this SQL Query to create a pre-defined database:
+## How to use
+### Run this SQL Query to create a pre-defined database:
 
 CREATE DATABASE bedrock_plexus;
 USE bedrock_plexus;
@@ -20,7 +20,7 @@ CREATE TABLE users (
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
-Inside the db folder/connect.php configure the following variables:
+### Inside the db folder/connect.php configure the following variables:
 
 $host = "localhost:3306"; <- Your database host
 $username = "root"; <- Your database username
@@ -28,6 +28,6 @@ $password = ""; <- Your database user password
 $db = "bedrock_plexus"; <- The database you want to use
 
 
-Thats it you're all set.
-This is in no way an actual functioning website, just a side project.
+### Thats it you're all set.
+### This is in no way an actual functioning website, just a side project.
 
